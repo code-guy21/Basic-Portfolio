@@ -7,6 +7,7 @@ body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
 	line-height: 40px;
+	background-image: url('../images/y-so-serious-white.png');
 }
 
 .clearfix::after {
@@ -62,6 +63,10 @@ li a {
 }
 
 footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
 	text-align: center;
 	padding: 14px;
 	background-color: #666666;
@@ -82,5 +87,4 @@ img {
 
 main {
 	padding: 40px 0px 80px 0px;
-	background-image: url('../images/y-so-serious-white.png');
 }
