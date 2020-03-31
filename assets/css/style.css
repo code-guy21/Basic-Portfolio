@@ -13,7 +13,7 @@ header {
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
-	line-height: 40px;
+	line-height: 30px;
 	background-image: url('../images/y-so-serious-white.png');
 }
 
@@ -81,7 +81,7 @@ ul li {
 }
 
 .container {
-	margin: 15px;
+	margin: 25px;
 }
 
 img {
@@ -92,4 +92,15 @@ img {
 	border-color: #dddddd;
 	border-style: solid;
 	border-width: 0px 2px 0px 2px;
+}
+
+input,
+textarea {
+	width: 100%;
+}
+
+#submit-button {
+	color: white;
+	background: #4aaaa5;
+	padding: 5px 10px 5px 10px;
 }
