@@ -1,6 +1,13 @@
+.clearfix::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
 header {
 	border-bottom: 2px solid #cccccc;
 	background: #ffffff;
+	overflow: auto;
 }
 
 body {
@@ -10,12 +17,6 @@ body {
 	background-image: url('../images/y-so-serious-white.png');
 }
 
-.clearfix::after {
-	content: '';
-	display: block;
-	clear: both;
-}
-
 section {
 	margin: 0px auto;
 	width: 960px;
@@ -23,6 +24,7 @@ section {
 }
 
 .content {
+	margin-top: 40px;
 	border: 2px solid #dddddd;
 }
 
@@ -68,9 +70,10 @@ footer {
 	bottom: 0;
 	left: 0;
 	text-align: center;
-	padding: 14px;
+	padding-top: 10px;
 	background-color: #666666;
 	color: white;
+	border-top: 8px solid #4aaaa5;
 }
 
 ul li {
@@ -83,8 +86,4 @@ ul li {
 
 img {
 	margin: 13px 20px 0px 0px;
-}
-
-main {
-	padding: 40px 0px 80px 0px;
 }
