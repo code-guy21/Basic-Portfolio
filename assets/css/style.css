@@ -107,6 +107,10 @@ p {
 	margin-bottom: 8px;
 }
 
+li:hover {
+	color: #4aaaa5;
+}
+
 img {
 	border-radius: 8px;
 }
