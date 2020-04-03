@@ -54,65 +54,32 @@ a {
 	margin: 0px 10px;
 }
 
-.float-left {
-	float: left;
-}
-
-.float-right {
-	float: right;
-}
-
-footer {
-	width: 100%;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	text-align: center;
-	padding-top: 10px;
-	background-color: #666666;
-	color: white;
-	border-top: 8px solid #4aaaa5;
-}
-
-ul li {
-	display: inline;
-}
-
 #portfolio-link {
 	border-color: #dddddd;
 	border-style: solid;
 	border-width: 0px 2px;
 }
 
-input,
-textarea,
-button {
-	width: 100%;
-	border-radius: 4px;
-	resize: none;
-}
-
-#submit-button {
-	width: auto;
-	color: white;
-	background: #4aaaa5;
-	padding: 5px 15px;
-}
-
-#submit-button:hover {
-	color: orange;
-}
-
-p {
-	margin-bottom: 8px;
+li {
+	display: inline;
 }
 
 li:hover {
 	color: #4aaaa5;
 }
 
+p {
+	margin-bottom: 8px;
+}
+
 img {
 	border-radius: 8px;
+}
+
+#bio-pic {
+	float: left;
+	margin-right: 15px;
+	margin-top: 8px;
 }
 
 .project {
@@ -138,8 +105,33 @@ img {
 	padding: 5px 0px;
 }
 
-#bio-pic {
-	float: left;
-	margin-right: 15px;
-	margin-top: 8px;
+input,
+textarea,
+button {
+	width: 100%;
+	border-radius: 4px;
+	resize: none;
+}
+
+#submit-button {
+	width: auto;
+	color: white;
+	background: #4aaaa5;
+	padding: 5px 15px;
+}
+
+#submit-button:hover {
+	color: orange;
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	text-align: center;
+	padding-top: 10px;
+	background-color: #666666;
+	color: white;
+	border-top: 8px solid #4aaaa5;
 }
