@@ -35,6 +35,7 @@ section {
 }
 
 .nav-heading {
+	float: left;
 	background: #4aaaa5;
 	color: white;
 	border: none;
@@ -43,6 +44,7 @@ section {
 }
 
 nav {
+	float: right;
 	padding: 14px;
 }
 
@@ -97,6 +99,10 @@ button {
 	padding: 5px 15px;
 }
 
+#submit-button:hover {
+	color: orange;
+}
+
 p {
 	margin-bottom: 8px;
 }
@@ -123,7 +129,8 @@ img {
 	padding: 5px 0px;
 }
 
-img.float-left {
+#bio-pic {
+	float: left;
 	margin-right: 15px;
 	margin-top: 8px;
 }
